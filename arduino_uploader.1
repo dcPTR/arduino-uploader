@@ -1,0 +1,106 @@
+.TH man 1 "5 June 2020" "1.0" "arduino_uploader man page"
+.SH NAME
+arduino_uploader - it allows you to compile the source code, send the program to Arduino and read the results.
+.SH SYNOPSIS
+.B arduino_uploader [\fI\,PATH\/\fR]
+.RB [\| \-b
+.IR board_type \|]
+.RB [\| \-c \|]
+.RB [\| \-s \|]
+.RB [\| \-i \|]
+.br
+.B arduino_uploader 
+.RB [\| \-l \|]
+.br
+.B arduino_uploader 
+.RB [\| \-s \|]
+.br
+.B arduino_uploader 
+.RB [\| \-h \|]
+.br
+
+.SH DESCRIPTION
+Allows you to compile the source code from one directory (the current directory by default), send executable program to arduino board and read the results.
+
+.SH OPTIONS
+
+.SS "General options"
+.TP
+.BI \-b\  board_type
+.br
+Set board type. Available types:
+.br
+atmega168     Arduino NG or older ATmega168
+.br
+atmega328     Arduino Duemilanove
+.br
+atmega8       Arduino NG or older ATmega8
+.br
+bt328         Arduino BT
+.br
+bt            Arduino BT
+.br
+diecimila     Arduino Diecimila or Duemilanove
+.br
+esplora       Arduino Esplora
+.br
+ethernet      Arduino Ethernet
+.br
+fio           Arduino Fio
+.br
+leonardo      Arduino Leonardo
+.br
+lilypad328    LilyPad Arduino
+.br
+lilypad       LilyPad Arduino
+.br
+LilyPadUSB    LilyPad Arduino USB
+.br
+mega2560      Arduino Mega 2560 or Mega ADK
+.br
+mega          Arduino Mega (ATmega1280)
+.br
+micro         Arduino Micro
+.br
+mini328       Arduino Mini
+.br
+mini          Arduino Mini
+.br
+nano328       Arduino Nano
+.br
+nano          Arduino Nano
+.br
+pro328        Arduino Pro or Pro Mini (3.3V, 8 MHz)
+.br
+pro5v328      Arduino Pro or Pro Mini (5V, 16 MHz)
+.br
+pro5v         Arduino Pro or Pro Mini (5V, 16 MHz)
+.br
+pro           Arduino Pro or Pro Mini (3.3V, 8 MHz)
+.br
+robotControl  Arduino Robot Control
+.br
+robotMotor    Arduino Robot Motor
+.br
+uno           Arduino Uno
+.br
+.TP
+.BR \-i "
+Show configuration GUI
+.TP
+.BR \-c "
+Show informations about a compilation process
+
+.TP
+.BR \-l "
+List available board types
+.TP
+.BR \-h "
+Help
+
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Written by dcPTR
+.SH REPORTING BUGS
+root@localhost
